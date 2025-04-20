@@ -1,5 +1,7 @@
 # Trade Venture App
 
+live link: https://trade-venture-web.vercel.app/
+
 A trading platform for businesses to find partners and grow their business. 
 
 ## Prerequisites
