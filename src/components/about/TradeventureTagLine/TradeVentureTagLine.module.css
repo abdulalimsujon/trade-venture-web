@@ -1,0 +1,36 @@
+.tradeVentureSection {
+  background: #e6eaea;
+  padding: 42px 0;
+  text-align: center;
+}
+
+.tradeVentureSection h5 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 500;
+  width: 65%;
+  margin: 0 auto;
+}
+
+/* Medium screens (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .tradeVentureSection h5 {
+    font-size: 26px;
+    width: 75%;
+  }
+}
+
+/* Small screens (mobile phones) */
+@media only screen and (max-width: 600px) {
+  .tradeVentureSection {
+    background: #e6eaea;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .tradeVentureSection h5 {
+    font-size: 20px;
+    font-weight: 600;
+    width: 90%;
+  }
+}

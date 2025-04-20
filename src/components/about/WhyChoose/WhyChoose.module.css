@@ -1,0 +1,96 @@
+.whyChooseSection {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.whyChooseTitle {
+  font-size: 60px;
+  font-weight: 500;
+  color: #1c1c1c;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.whyChooseGridDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.whyChooseWrapperCard {
+  border: 1px solid #e4e4e4;
+  padding-top: 26px;
+  padding-bottom: 59px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-radius: 30px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.whyChooseWrapperCard:hover {
+  box-shadow: 0 10px 30px #d7d7d7;
+}
+
+.imageCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.cardTitle {
+  font-size: 25px;
+  font-weight: 700;
+  color: #1c1c1c;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.cardText {
+  color: #032d2c;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* for tablet device  */
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+  .whyChooseSection {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .whyChooseTitle {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .whyChooseGridDiv {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* for mobile device  */
+@media only screen and (max-width: 600px) {
+  .whyChooseSection {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .whyChooseGridDiv {
+    grid-template-columns: 1fr;
+  }
+
+  .whyChooseTitle {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  .cardTitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1c1c1c;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}

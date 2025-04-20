@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "react-big-calendar/lib/css/react-big-calendar.css";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap");
+
+:root {
+  --main: #1c1c1c;
+  --primary: "#17C550";
+  --secondary: "#032D2C";
+  --text: "#494949";
+  --white: "#ffffff";
+  --subtext: "#777";
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
+.heading-text {
+  @apply lg:text-[32px] md:text-[26px] text-[20px] font-semibold;
+}
+
+.section-padding {
+  @apply py-[40px] md:py-[50px] lg:py-[95px] xl:py-[110px];
+}
+
+.section-title {
+  @apply xl:text-[56px] lg:text-[44px] md:text-[28px] text-[22px] font-bold;
+}
+
+.text-36 {
+  @apply lg:text-[36px] md:text-[28px] text-[20px] font-semibold;
+}
+.text-20 {
+  @apply lg:text-[18px] md:text-[18px] text-base font-medium;
+}
+
+.common-button {
+  @apply outline-none py-2 xl:px-[25px] px-[15px] md:px-[20px]  rounded-[8px] lg:text-lg text-base font-semibold  border duration-300;
+}
+/* sign up page bg  class */
+.signup-bg {
+  background-image: url("https://i.ibb.co/1ssfB7C/Frame-1000010026.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* protected home background image */
+.protected-bg {
+  background-image: url("https://i.ibb.co/QHHmv2z/pexels-anna-nekrashevich-6802042.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  z-index: 10;
+}
+.protected-bg::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+}
+
+/* startup background image */
+
+.startup-banner {
+  background-image: url("https://i.ibb.co/VT67jhK/startup-2188679-1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 360px;
+  position: relative;
+  z-index: 10;
+}
+.startup-banner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+}
+
+/* startup profile banner */
+
+.startup-profile-banner {
+  background-image: url("https://i.ibb.co/pyXvdKM/maple-1079235-1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 10;
+}
+.startup-profile-banner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+}
+
+/* co founder profile banner*/
+.coFounder-banner {
+  background-image: url("https://i.ibb.co/pyXvdKM/maple-1079235-1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 10;
+}
+
+.icons span {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f0f0f0;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.icons span:hover {
+  background-color: #a7bbee;
+}
+
+/* custom scrollbar hidden in  dashboard page  */
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0 !important; /* This hides the scrollbar in Webkit browsers like Chrome and Safari */
+}
+
+.custom-scrollbar {
+  scrollbar-width: none; /* This hides the scrollbar in Firefox */
+}
+
+/* react-quill custom style */
+.ql-container {
+  border-radius: 0px 0px 8px 8px !important;
+  overflow: hidden; 
+  min-height: 112px;
+  background-color: #f4f4f4;
+}
+.ql-toolbar {
+  border-radius: 8px 8px 0px 0px !important; 
+}

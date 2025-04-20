@@ -1,0 +1,99 @@
+.missionContainer {
+  background-color: #22cd5b2f;
+  padding-top: 53px;
+  padding-bottom: 252px;
+  margin-top: 40px;
+}
+.meetingImageContainer {
+  margin-top: -200px;
+}
+.missionTitle {
+  font-size: 60px;
+  font-weight: 500;
+  color: #1c1c1c;
+}
+.missionDescription {
+  color: #032d2c;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.videoPlayIconWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.playIcon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #007e29, #007e29);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.playIcon svg {
+  width: 60px;
+  height: 60px;
+}
+/* Define your custom breakpoints */
+/* Small screens (mobile phones) */
+@media only screen and (max-width: 600px) {
+  .missionContainer {
+    background-color: #22cd5b2f;
+    padding-top: 53px;
+    padding-bottom: 120px;
+    margin-top: 30px;
+  }
+  .meetingImageContainer {
+    margin-top: -95px;
+  }
+  .missionTitle {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1c1c1c;
+  }
+  .missionDescription {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+  }
+
+  .playIcon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .playIcon svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Medium screens (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+  .missionContainer {
+    background-color: #22cd5b2f;
+    padding-top: 53px;
+    padding-bottom: 152px;
+    margin-top: 20px;
+  }
+  .meetingImageContainer {
+    margin-top: -120px;
+  }
+  .missionTitle {
+    font-size: 40px;
+  }
+  .missionDescription {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 18px;
+  }
+}

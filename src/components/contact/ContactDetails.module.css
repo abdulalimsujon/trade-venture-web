@@ -1,0 +1,10 @@
+.circle {
+  position: absolute;
+  bottom: 91px;
+  right: 40px;
+  width: 138px;
+  height: 138px;
+  border-radius: 50%;
+  background: linear-gradient(290deg, #484848, transparent);
+  opacity: 0.5;
+}

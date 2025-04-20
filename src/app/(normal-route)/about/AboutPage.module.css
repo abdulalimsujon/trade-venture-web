@@ -1,0 +1,22 @@
+.aboutPage {
+  padding-top: 35px;
+}
+
+/* Define your custom breakpoints */
+/* Small screens (mobile phones) */
+@media only screen and (max-width: 600px) {
+  .aboutPage {
+    padding-top: 25px;
+  }
+}
+
+/* Medium screens (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .aboutPage {
+    padding-top: 30px;
+  }
+}
+
+/* Large screens (desktops) */
+@media only screen and (min-width: 1025px) {
+}

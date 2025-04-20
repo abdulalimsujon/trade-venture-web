@@ -1,0 +1,22 @@
+.blogPage {
+  padding: 35px 0;
+}
+
+/* Define your custom breakpoints */
+/* Small screens (mobile phones) */
+@media only screen and (max-width: 600px) {
+  .blogPage {
+    padding: 25px 0;
+  }
+}
+
+/* Medium screens (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .blogPage {
+    padding: 30px 0;
+  }
+}
+
+/* Large screens (desktops) */
+@media only screen and (min-width: 1025px) {
+}

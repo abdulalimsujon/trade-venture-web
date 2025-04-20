@@ -1,0 +1,16 @@
+.tabTitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  position: relative;
+}
+.tabTitle::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: #17c550;
+  bottom: -5px;
+  left: 0px;
+}
